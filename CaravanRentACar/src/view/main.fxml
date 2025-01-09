@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="controllers.MainController">
+    <Label text="Caravan Rent-a-Car" layoutX="200" layoutY="20" />
+    <TableView fx:id="customerTable" layoutX="50" layoutY="50">
+        <columns>
+            <TableColumn text="Customer ID" fx:id="custIdColumn" />
+            <TableColumn text="Name" fx:id="nameColumn" />
+            <!-- Add more columns -->
+        </columns>
+    </TableView>
+</AnchorPane>
